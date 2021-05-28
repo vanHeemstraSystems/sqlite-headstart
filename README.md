@@ -21,3 +21,16 @@ Saving to: ‘sqlite-autoconf-3350500.tar.gz’
 2021-05-28 11:18:17 (3.67 MB/s) - ‘sqlite-autoconf-3350500.tar.gz’ saved [2956627/2956627]
 
 ```
+
+Uncompress the tar.gz file and install SQLite3 as shown below.
+
+```
+$ tar xvfz sqlite-autoconf-3350500.tar.gz
+$ cd sqlite-autoconf-3070603
+$ ./configure
+$ make
+$ make install
+```
+
+```make install``` command will displays the following output indicating that it is installing sqlite3 binaries under ```/usr/local/bin```
+
